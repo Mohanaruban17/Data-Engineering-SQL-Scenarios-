@@ -28,5 +28,5 @@ select count(customerid) as registered_customer from customer;
 • Total number of employees • Total salary paid • Average salary • Highest salary • Lowest salary 
 Write a single SQL query to generate the dashboard. */
 select * from employee;
-select count(empid) as total_number_employee , sum(salary) as total_salary , avg(salary) as avg_salary , max(salary) as high_salary ,
-min(salary) as low_salary from employee;
+select count(empid) as total_number_employee , sum(salary) as total_salary , avg(salary) as avg_salary , max(salary) as high_salary , min(salary) as low_salary from employee;
+
